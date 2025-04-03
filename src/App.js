@@ -70,6 +70,7 @@ function App() {
             height: 800,
             textAlign: "center",
           }}
+          mirrored={true}
         />
         <canvas
           ref={canvasRef}
@@ -84,6 +85,7 @@ function App() {
             height: 800,
             textAlign: "center",
           }}
+          mirrored={true}
         />
       </header>
     </div>
